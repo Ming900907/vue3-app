@@ -9,7 +9,7 @@ module.exports = {
         { value: 'perf', name: 'perf:     性能优化' },
         {
             value: 'refactor',
-            name: 'refactor: 重构(既不是增加feature，也不是修复bug)',
+            name: 'refactor: 重构(既不是增加feature,也不是修复bug)',
         },
         { value: 'release', name: 'release:  发布' },
         { value: 'deploy', name: 'deploy:   部署' },
