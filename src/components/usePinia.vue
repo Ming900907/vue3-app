@@ -14,7 +14,7 @@ import {
     watchEffect,
     computed,
 } from 'vue';
-import { useUserStore } from '@/store/user';
+import { useUserStore } from '@/Store/user';
 const userStore = useUserStore();
 userStore.updateName('Pina');
 </script>

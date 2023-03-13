@@ -1,6 +1,6 @@
 # Vue 3 + TypeScript + Vite 模板项目
 
-环境依赖
+## 环境依赖
 
 -   node: v18.13.0
 -   vite: ^4.1.0
@@ -8,7 +8,7 @@
 -   typescript: 4.5.4
 -   pinia: ^2.0.33
 -   vue-router: ^4.1.6
--   vueuse: ^9.13.0 [https://vueuse.org/]
+-   vueuse: ^9.13.0
 -   eslint: ^8.36.0
 -   prettier: ^2.8.4
 -   commitizen: ^4.3.0
@@ -18,9 +18,12 @@
 cd vue3-app && yarn
 ```
 
-# 代理配置
+## 代理配置
 
 ```javascript
+ /**
+  * @vite.config.ts
+  */
   proxy: {
            '/api': {
                target: 'your https address',

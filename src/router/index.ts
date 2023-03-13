@@ -5,11 +5,11 @@ const routes: Array<RouteRecordRaw> = [
         path: '/',
         name: 'Index',
         meta: {
-            title: 'Home',
+            title: 'Layout',
             keepAlive: true,
             requireAuth: true,
         },
-        component: () => import('@/pages/Home/Index.vue'),
+        component: () => import('@/Layout/index.vue'),
     },
 ];
 
